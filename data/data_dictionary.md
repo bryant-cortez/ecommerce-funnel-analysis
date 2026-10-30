@@ -33,7 +33,7 @@ This document outlines the schema, tables, and fields for the E-commerce Analyti
 | `session_id` | VARCHAR(50) | Identifier of the web session where the order was placed | |
 | `order_timestamp` | DATETIME | Date and time the order was placed | |
 | `total_amount` | DECIMAL(12,2) | Total monetary value of the order | |
-| `payment_method` | VARCHAR(50) | Method used for payment (e.g., Credit Card, PayPal) | |
+| `payment_method` | VARCHAR(50) | Method used for payment (e.g., Credit Card, Debit) | |
 | `order_status` | VARCHAR(30) | Current status of the order (e.g., Completed, Cancelled) | |
 
 ## Table: `events`
@@ -49,9 +49,9 @@ This document outlines the schema, tables, and fields for the E-commerce Analyti
 | `product_id` | VARCHAR(20) | Identifier of the product involved in the event | **Foreign Key** -> `products` |
 | `device` | VARCHAR(30) | Device used by the customer (e.g., mobile, desktop, tablet) | |
 | `traffic_source` | VARCHAR(50) | Marketing channel that brought the user (e.g., social, organic) | |
-| `category` | VARCHAR(50) | Top-level product category (denormalized for event tracking) | |
-| `subcategory` | VARCHAR(50) | Product subcategory (denormalized for event tracking) | |
-| `brand` | VARCHAR(50) | Product brand (denormalized for event tracking) | |
+| `category` | VARCHAR(50) | Top-level product category | |
+| `subcategory` | VARCHAR(50) | Product subcategory | |
+| `brand` | VARCHAR(50) | Product brand | |
 | `price` | DECIMAL(12,2) | Price of the product at the time of the event | |
 
 ## Table: `order_items`
