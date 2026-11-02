@@ -57,9 +57,9 @@ View → Add to Cart → Checkout → Purchase
 *(View the full interactive Tableau Dashboard [here](https://public.tableau.com/app/profile/bryant.cortez/viz/FunnelAnalysis_17933177896900/FunnelAnalysisDashboard?publish=yes) or download the `.twbx` file in this repo).*
 
 ## Next Steps
-*   **Cohort Analysis:** Analyze the Social traffic drop-off over time to see if specific campaigns or months performed worse.
-*   **Product-Level Friction:** Expand the SQL queries to identify if specific product categories (e.g., Electronics vs. Apparel) drive higher tablet abandonment.
-*   **A/B Testing:** Implement a mobile/tablet-specific checkout UI test (e.g., Apple Pay/Google Pay integrations) to validate the $59.37K recovery hypothesis.
+1.   **Cohort Analysis:** Analyze the Social traffic drop-off over time to see if specific campaigns or months performed worse.
+2.   **Product-Level Friction:** Expand the SQL queries to identify if specific product categories (e.g., Electronics vs. Apparel) drive higher tablet abandonment.
+3.   **A/B Testing:** Implement a mobile/tablet-specific checkout UI test (e.g., Apple Pay/Google Pay integrations) to validate the $59.37K recovery hypothesis.
 
 ## Limitations and Assumptions
 *   **Synthetic Data:** The dataset was generated via Python to simulate realistic e-commerce behavior. While the logic and SQL queries are production-ready, the specific dollar amounts are hypothetical and may not reflect real-world business outcomes.
