@@ -5,7 +5,7 @@ Order conversion has been down at our ecommerce company, and we need to investig
 
 1.   **Optimize Tablet Checkout:** The Tablet checkout-to-purchase conversion (40.85%) lags significantly behind the Desktop/Mobile benchmark (65.22%). Prioritize checkout UX testing on tablet viewports.
 2.   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.95%, compared to the overall average of 32.43%. 
-3.   **Implement Targeted Retargeting:** Capture the $112.3K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
+3.   **Implement Targeted Retargeting:** Capture the $112.36K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
 
 ![E-commerce Funnel Dashboard](images/new_dashboard_ss.png)
 
