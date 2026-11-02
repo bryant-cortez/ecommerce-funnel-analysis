@@ -25,7 +25,8 @@ The analysis focuses on four sequential funnel stages:
 View → Add to Cart → Checkout → Purchase
 
 ## Methodology
-1.  **Database Architecture:** Designed a 5-table relational schema (`customers`, `products`, `orders`, `order_items`, `events`) in MySQL. ([View Data Dictionary](data_dictionary.md))
+![Data Model](images/funnel_data_model.png)
+1.  **Database Architecture:** Designed a 5-table relational schema (`customers`, `products`, `orders`, `order_items`, `events`) in MySQL. 
 2.  **Data Generation & Cleaning:** Utilized Python to generate 200K+ realistic event logs and transaction records, then cleaned and prepped the data for analysis. ([View Notebooks](data_generation.ipynb))
 3.  **Funnel Logic & SQL Analysis:** Built strict sequential funnel queries using CTEs and window functions (`ROW_NUMBER`) to track user progression from View → Add to Cart → Checkout → Purchase. ([View SQL](business_impact.sql))
 4.  **Business Impact Modeling:** Developed a benchmarking model that compares underperforming segments (Tablets, Social) against the top-performing baseline (Desktop/Mobile) to calculate "Expected Purchases" and the resulting lost revenue (based on an Overall AOV of $45.10).
