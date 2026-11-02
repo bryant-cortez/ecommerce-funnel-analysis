@@ -7,7 +7,7 @@ Order conversion has been down at our ecommerce company, and we need to investig
 *   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.9%, compared to the overall average of 29.3%. 
 *   **Implement Targeted Retargeting:** Capture the $112.3K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
 
-![E-commerce Funnel Dashboard](dashboard_preview.png)
+![E-commerce Funnel Dashboard](images/dashboard_ss.png)
 
 ## Business Problem
 E-commerce businesses need to understand how effectively website visitors progress from product discovery to completed purchases. A high volume of traffic does not necessarily translate into revenue if customers encounter friction at particular stages of the purchase journey.
