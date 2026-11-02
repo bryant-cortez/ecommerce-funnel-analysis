@@ -1,7 +1,7 @@
 # E-Commerce Funnel Analysis 
 
 ## Executive Summary
-Order conversion has been down at our ecommerce company, and we need to investigate potential friction points in the customer journey and identify potential solutions. By generating and cleaning synthetic event data using Python, architecting a relational database using SQL, and building an interactive Tableau dashboard, I identified two major friction points: Tablet checkout flows and Social traffic acquisition. Fixing these drop-offs represents a combined **$171.73K in potential lost revenue**. Based on these findings, the recommended areas of focus are:
+Order conversion has been down at our ecommerce company over the past couple years, and we need to investigate potential friction points in the customer journey and identify potential solutions. By generating and cleaning synthetic event data using Python, architecting a relational database using SQL, and building an interactive Tableau dashboard, I identified two major friction points: Tablet checkout flows and Social traffic acquisition. Fixing these drop-offs represents a combined **$171.73K in potential lost revenue**. Based on these findings, the recommended areas of focus are:
 
 1.   **Optimize Tablet Checkout:** The Tablet checkout-to-purchase conversion (40.85%) lags significantly behind the Desktop/Mobile benchmark (65.22%). Prioritize checkout UX testing on tablet viewports.
 2.   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.95%, compared to the overall average of 32.43%. 
