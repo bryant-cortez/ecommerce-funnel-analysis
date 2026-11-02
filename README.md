@@ -37,9 +37,9 @@ View → Add to Cart → Checkout → Purchase
 
 ## Skills 
 *   **Data Architecture:** Relational Database Design (ERD), MySQL DDL (Primary/Foreign Keys, Constraints).
-*   **Programming and Data Analysis:** Python (pandas), data generation and manipulation, data auditing and cleaning
+*   **Programming and Data Analysis:** Python (pandas), Data Generation and Manipulation, Data Auditing and Cleaning
 *   **SQL:** Multi-level CTEs, Window Functions (`ROW_NUMBER`), Self-Joins, Strict Funnel Logic, Aggregations, Benchmarking Analysis.
-*   **Business Impact Analysis:** Revenue attribution, Opportunity Sizing, AOV calculations, segment performance analysis
+*   **Business Impact Analysis:** Revenue attribution, Opportunity Sizing, AOV calculations, Segment Performance Analysis
 *   **Data Visualization:** Tableau (LOD calculations, interactive parameters, UI/UX layout design).
 
 ## Results and Business Recommendations
