@@ -3,9 +3,9 @@
 ## Executive Summary
 Order conversion has been down at our ecommerce company, and we need to investigate potential friction points in the customer journey and identify potential solutions. By generating and cleaning synthetic event data using Python, architecting a relational database using SQL, and building an interactive Tableau dashboard, I identified two major friction points: Tablet checkout flows and Social traffic acquisition. Fixing these drop-offs represents a combined **$171.73K in potential lost revenue**. Based on these findings, the recommended areas of focus are:
 
-*   **Optimize Mobile Checkout:** The Tablet checkout-to-purchase conversion (40.9%) lags significantly behind the Desktop/Mobile benchmark (65.2%). Prioritize checkout UX testing on tablet viewports.
-*   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.9%, compared to the overall average of 29.3%. 
-*   **Implement Targeted Retargeting:** Capture the $112.3K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
+1.   **Optimize Tablet Checkout:** The Tablet checkout-to-purchase conversion (40.85%) lags significantly behind the Desktop/Mobile benchmark (65.22%). Prioritize checkout UX testing on tablet viewports.
+2.   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.95%, compared to the overall average of 32.43%. 
+3.   **Implement Targeted Retargeting:** Capture the $112.3K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
 
 ![E-commerce Funnel Dashboard](images/new_dashboard_ss.png)
 
@@ -14,11 +14,11 @@ E-commerce businesses need to understand how effectively website visitors progre
 
 The objective of this project was to analyze the e-commerce conversion funnel and answer the following questions:
 
-1. How many sessions progress through each stage of the purchase funnel?
-2. Where are the largest conversion drop-offs?
-3. How does funnel performance differ across devices?
-4. How does funnel performance differ across traffic sources?
-5. What is the potential business impact of improving conversion rates in underperforming segments?
+* How many sessions progress through each stage of the purchase funnel?
+* Where are the largest conversion drop-offs?
+* How does funnel performance differ across devices?
+* How does funnel performance differ across traffic sources?
+* What is the potential business impact of improving conversion rates in underperforming segments?
 
 The analysis focuses on four sequential funnel stages:
 
@@ -50,7 +50,7 @@ View → Add to Cart → Checkout → Purchase
 *   **Recommendation:** Conduct QA testing on the tablet checkout interface, specifically looking at payment gateway rendering, page responsiveness, and form field usability on iOS/Android tablets.
 
 ### 2. The Social Traffic Revenue Gap ($112.36K Opportunity)
-*   **The Finding:** Social traffic has a severe top-of-funnel issue. The View-to-Cart conversion for Social is **16.95%**, compared to the Non-Social benchmark of **29.34%**. However, once they reach checkout, Social users convert at a healthy 61.35% (comparable to the overall 61.79%).
+*   **The Finding:** Social traffic has a severe top-of-funnel issue. The View-to-Cart conversion for Social is **16.95%**, compared to the Non-Social benchmark of **32.43%**. However, once they reach checkout, Social users convert at a healthy 61.35% (comparable to the overall 61.79%).
 *   **The Impact:** Aligning Social's View-to-Cart rate with the benchmark would yield an additional **2,492 purchases**, equating to **$112,360** in missed revenue.
 *   **Recommendation:** Investigate the social acquisition journey, including the quality and intent of incoming traffic, the relevance of landing pages, and the consistency between ads and product offerings. Improving the alignment between social campaigns and the on-site shopping experience may help more visitors progress to the cart stage.
 
