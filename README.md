@@ -12,7 +12,7 @@ Order conversion has been down at our ecommerce company over the past couple yea
 ## Business Problem
 E-commerce businesses need to understand how effectively website visitors progress from product discovery to completed purchases. A high volume of traffic does not necessarily translate into revenue if customers encounter friction at particular stages of the purchase journey.
 
-The objective of this project was to analyze the e-commerce conversion funnel and answer the following questions:
+The objective of this project was to analyze the e-commerce conversion funnel and answer the following:
 
 * How many sessions progress through each stage of the purchase funnel?
 * Where are the largest conversion drop-offs?
