@@ -7,6 +7,8 @@ Order conversion has been down at our ecommerce company, and we need to investig
 *   **Audit Social Landing Pages:** Social traffic suffers from severe top-of-funnel friction. The Social View-to-Cart rate is only 16.9%, compared to the overall average of 29.3%. 
 *   **Implement Targeted Retargeting:** Capture the $112.3K opportunity from Social traffic by implementing abandoned cart retargeting campaigns specifically for users acquired via social channels.
 
+![E-commerce Funnel Dashboard](dashboard_preview.png)
+
 ## Business Problem
 E-commerce businesses need to understand how effectively website visitors progress from product discovery to completed purchases. A high volume of traffic does not necessarily translate into revenue if customers encounter friction at particular stages of the purchase journey.
 
@@ -23,13 +25,13 @@ The analysis focuses on four sequential funnel stages:
 View → Add to Cart → Checkout → Purchase
 
 ## Methodology
-1.  **Database Architecture:** Designed a 5-table relational schema (`customers`, `products`, `orders`, `order_items`, `events`) in MySQL. ([View Data Model](funnel_data_model.jpg) | [View Data Dictionary](data_dictionary.md))
+1.  **Database Architecture:** Designed a 5-table relational schema (`customers`, `products`, `orders`, `order_items`, `events`) in MySQL. ([View Data Dictionary](data_dictionary.md))
 2.  **Data Generation & Cleaning:** Utilized Python to generate 200K+ realistic event logs and transaction records, then cleaned and prepped the data for analysis. ([View Notebooks](data_generation.ipynb))
 3.  **Funnel Logic & SQL Analysis:** Built strict sequential funnel queries using CTEs and window functions (`ROW_NUMBER`) to track user progression from View → Add to Cart → Checkout → Purchase. ([View SQL](business_impact.sql))
 4.  **Business Impact Modeling:** Developed a benchmarking model that compares underperforming segments (Tablets, Social) against the top-performing baseline (Desktop/Mobile) to calculate "Expected Purchases" and the resulting lost revenue (based on an Overall AOV of $45.10).
 5.  **Data Visualization:** Built an interactive executive dashboard in Tableau to visualize the overall funnel and segment-level friction points.
 
-## Skills Showcased
+## Skills 
 *   **Data Architecture:** Relational Database Design (ERD), MySQL DDL (Primary/Foreign Keys, Constraints).
 *   **Programming and Data Analysis:** Python (pandas), data generation and manipulation, data auditing and cleaning
 *   **SQL:** Multi-level CTEs, Window Functions (`ROW_NUMBER`), Self-Joins, Strict Funnel Logic, Aggregations, Benchmarking Analysis.
